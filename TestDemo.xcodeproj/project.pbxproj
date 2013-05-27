@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28A70A4E17521B85007A0B19 /* depressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 28A70A4917521B85007A0B19 /* depressed.png */; };
+		28A70A4F17521B85007A0B19 /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 28A70A4A17521B85007A0B19 /* sad.png */; };
+		28A70A5017521B85007A0B19 /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 28A70A4B17521B85007A0B19 /* ok.png */; };
+		28A70A5117521B85007A0B19 /* Happy.png in Resources */ = {isa = PBXBuildFile; fileRef = 28A70A4C17521B85007A0B19 /* Happy.png */; };
+		28A70A5217521B85007A0B19 /* ecstatic.png in Resources */ = {isa = PBXBuildFile; fileRef = 28A70A4D17521B85007A0B19 /* ecstatic.png */; };
+		28A70A5417521E19007A0B19 /* bgView.png in Resources */ = {isa = PBXBuildFile; fileRef = 28A70A5317521E19007A0B19 /* bgView.png */; };
+		28A70A561752287E007A0B19 /* main_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 28A70A551752287E007A0B19 /* main_bg.png */; };
+		28A70A5817522942007A0B19 /* submint_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 28A70A5717522942007A0B19 /* submint_btn.png */; };
+		28BF1B5317513EFA0060C384 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28BF1B5217513EFA0060C384 /* CoreData.framework */; };
+		28BF1B57175141C10060C384 /* MoodLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BF1B55175141C10060C384 /* MoodLogViewController.m */; };
+		28BF1B58175141C10060C384 /* MoodLogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28BF1B56175141C10060C384 /* MoodLogViewController.xib */; };
 		28DABC68175114A500B82ED6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DABC67175114A500B82ED6 /* UIKit.framework */; };
 		28DABC6A175114A500B82ED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DABC69175114A500B82ED6 /* Foundation.framework */; };
 		28DABC6C175114A500B82ED6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DABC6B175114A500B82ED6 /* CoreGraphics.framework */; };
@@ -23,6 +34,11 @@
 		28DABC8E175114A500B82ED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DABC69175114A500B82ED6 /* Foundation.framework */; };
 		28DABC96175114A500B82ED6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28DABC94175114A500B82ED6 /* InfoPlist.strings */; };
 		28DABC99175114A500B82ED6 /* TestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DABC98175114A500B82ED6 /* TestDemoTests.m */; };
+		28DABCA51751156800B82ED6 /* MoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DABCA31751156800B82ED6 /* MoodViewController.m */; };
+		28DABCA61751156800B82ED6 /* MoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28DABCA41751156800B82ED6 /* MoodViewController.xib */; };
+		28DABCB317511CD600B82ED6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DABCB217511CD600B82ED6 /* QuartzCore.framework */; };
+		28DABCB7175133D100B82ED6 /* MoodDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28DABCB5175133D100B82ED6 /* MoodDB.xcdatamodeld */; };
+		28DABCBA1751342C00B82ED6 /* MoodDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DABCB91751342C00B82ED6 /* MoodDetail.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +52,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28A70A4917521B85007A0B19 /* depressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = depressed.png; sourceTree = "<group>"; };
+		28A70A4A17521B85007A0B19 /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
+		28A70A4B17521B85007A0B19 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok.png; sourceTree = "<group>"; };
+		28A70A4C17521B85007A0B19 /* Happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Happy.png; sourceTree = "<group>"; };
+		28A70A4D17521B85007A0B19 /* ecstatic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ecstatic.png; sourceTree = "<group>"; };
+		28A70A5317521E19007A0B19 /* bgView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgView.png; sourceTree = "<group>"; };
+		28A70A551752287E007A0B19 /* main_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_bg.png; sourceTree = "<group>"; };
+		28A70A5717522942007A0B19 /* submint_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submint_btn.png; sourceTree = "<group>"; };
+		28BF1B5217513EFA0060C384 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		28BF1B54175141C10060C384 /* MoodLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoodLogViewController.h; sourceTree = "<group>"; };
+		28BF1B55175141C10060C384 /* MoodLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoodLogViewController.m; sourceTree = "<group>"; };
+		28BF1B56175141C10060C384 /* MoodLogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoodLogViewController.xib; sourceTree = "<group>"; };
 		28DABC64175114A500B82ED6 /* TestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28DABC67175114A500B82ED6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28DABC69175114A500B82ED6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +86,13 @@
 		28DABC95175114A500B82ED6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28DABC97175114A500B82ED6 /* TestDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDemoTests.h; sourceTree = "<group>"; };
 		28DABC98175114A500B82ED6 /* TestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDemoTests.m; sourceTree = "<group>"; };
+		28DABCA21751156800B82ED6 /* MoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoodViewController.h; sourceTree = "<group>"; };
+		28DABCA31751156800B82ED6 /* MoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoodViewController.m; sourceTree = "<group>"; };
+		28DABCA41751156800B82ED6 /* MoodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoodViewController.xib; sourceTree = "<group>"; };
+		28DABCB217511CD600B82ED6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		28DABCB6175133D100B82ED6 /* MoodDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoodDB.xcdatamodel; sourceTree = "<group>"; };
+		28DABCB81751342C00B82ED6 /* MoodDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoodDetail.h; sourceTree = "<group>"; };
+		28DABCB91751342C00B82ED6 /* MoodDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoodDetail.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28BF1B5317513EFA0060C384 /* CoreData.framework in Frameworks */,
+				28DABCB317511CD600B82ED6 /* QuartzCore.framework in Frameworks */,
 				28DABC68175114A500B82ED6 /* UIKit.framework in Frameworks */,
 				28DABC6A175114A500B82ED6 /* Foundation.framework in Frameworks */,
 				28DABC6C175114A500B82ED6 /* CoreGraphics.framework in Frameworks */,
@@ -106,6 +143,8 @@
 		28DABC66175114A500B82ED6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				28BF1B5217513EFA0060C384 /* CoreData.framework */,
+				28DABCB217511CD600B82ED6 /* QuartzCore.framework */,
 				28DABC67175114A500B82ED6 /* UIKit.framework */,
 				28DABC69175114A500B82ED6 /* Foundation.framework */,
 				28DABC6B175114A500B82ED6 /* CoreGraphics.framework */,
@@ -117,11 +156,19 @@
 		28DABC6D175114A500B82ED6 /* TestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				28DABCB4175132F500B82ED6 /* DataBase */,
+				28DABCB1175118DB00B82ED6 /* Images */,
 				28DABC76175114A500B82ED6 /* AppDelegate.h */,
 				28DABC77175114A500B82ED6 /* AppDelegate.m */,
 				28DABC7F175114A500B82ED6 /* ViewController.h */,
 				28DABC80175114A500B82ED6 /* ViewController.m */,
 				28DABC82175114A500B82ED6 /* ViewController.xib */,
+				28DABCA21751156800B82ED6 /* MoodViewController.h */,
+				28DABCA31751156800B82ED6 /* MoodViewController.m */,
+				28DABCA41751156800B82ED6 /* MoodViewController.xib */,
+				28BF1B54175141C10060C384 /* MoodLogViewController.h */,
+				28BF1B55175141C10060C384 /* MoodLogViewController.m */,
+				28BF1B56175141C10060C384 /* MoodLogViewController.xib */,
 				28DABC6E175114A500B82ED6 /* Supporting Files */,
 			);
 			path = TestDemo;
@@ -158,6 +205,31 @@
 				28DABC94175114A500B82ED6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28DABCB1175118DB00B82ED6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				28A70A551752287E007A0B19 /* main_bg.png */,
+				28A70A5717522942007A0B19 /* submint_btn.png */,
+				28A70A5317521E19007A0B19 /* bgView.png */,
+				28A70A4917521B85007A0B19 /* depressed.png */,
+				28A70A4A17521B85007A0B19 /* sad.png */,
+				28A70A4B17521B85007A0B19 /* ok.png */,
+				28A70A4C17521B85007A0B19 /* Happy.png */,
+				28A70A4D17521B85007A0B19 /* ecstatic.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		28DABCB4175132F500B82ED6 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				28DABCB5175133D100B82ED6 /* MoodDB.xcdatamodeld */,
+				28DABCB81751342C00B82ED6 /* MoodDetail.h */,
+				28DABCB91751342C00B82ED6 /* MoodDetail.m */,
+			);
+			name = DataBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +308,16 @@
 				28DABC7C175114A500B82ED6 /* Default@2x.png in Resources */,
 				28DABC7E175114A500B82ED6 /* Default-568h@2x.png in Resources */,
 				28DABC84175114A500B82ED6 /* ViewController.xib in Resources */,
+				28DABCA61751156800B82ED6 /* MoodViewController.xib in Resources */,
+				28BF1B58175141C10060C384 /* MoodLogViewController.xib in Resources */,
+				28A70A4E17521B85007A0B19 /* depressed.png in Resources */,
+				28A70A4F17521B85007A0B19 /* sad.png in Resources */,
+				28A70A5017521B85007A0B19 /* ok.png in Resources */,
+				28A70A5117521B85007A0B19 /* Happy.png in Resources */,
+				28A70A5217521B85007A0B19 /* ecstatic.png in Resources */,
+				28A70A5417521E19007A0B19 /* bgView.png in Resources */,
+				28A70A561752287E007A0B19 /* main_bg.png in Resources */,
+				28A70A5817522942007A0B19 /* submint_btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +355,10 @@
 				28DABC74175114A500B82ED6 /* main.m in Sources */,
 				28DABC78175114A500B82ED6 /* AppDelegate.m in Sources */,
 				28DABC81175114A500B82ED6 /* ViewController.m in Sources */,
+				28DABCA51751156800B82ED6 /* MoodViewController.m in Sources */,
+				28DABCB7175133D100B82ED6 /* MoodDB.xcdatamodeld in Sources */,
+				28DABCBA1751342C00B82ED6 /* MoodDetail.m in Sources */,
+				28BF1B57175141C10060C384 /* MoodLogViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +539,7 @@
 				28DABC9E175114A500B82ED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28DABC9F175114A500B82ED6 /* Build configuration list for PBXNativeTarget "TestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -461,8 +548,22 @@
 				28DABCA1175114A500B82ED6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28DABCB5175133D100B82ED6 /* MoodDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28DABCB6175133D100B82ED6 /* MoodDB.xcdatamodel */,
+			);
+			currentVersion = 28DABCB6175133D100B82ED6 /* MoodDB.xcdatamodel */;
+			path = MoodDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 28DABC5C175114A500B82ED6 /* Project object */;
 }
